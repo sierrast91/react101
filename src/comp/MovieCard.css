@@ -1,0 +1,23 @@
+#MC {
+  background-color: #f1d1d1;
+
+  width: 350px;
+  height: auto;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: orange;
+  border-width: 4px;
+  overflow: hidden;
+}
+#MC > div {
+  padding: 5px;
+  padding-bottom: 10px;
+}
+#MC > div > p {
+  font-weight: bold;
+}
+#MC > div > div {
+}
